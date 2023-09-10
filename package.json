@@ -7,7 +7,7 @@
     "test": "npm run test"
   },
   "bin": {
-    "ViduX": "./index.js"
+    "vid-ux": "./index.js"
   },
   "author": "Abdussalam Mujeeb-ur-rahman",
   "license": "ISC",

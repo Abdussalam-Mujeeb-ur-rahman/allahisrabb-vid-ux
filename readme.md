@@ -1,4 +1,4 @@
-# Meet ViduX
+# Meet vid-ux
 
 A is a command-line tool that allows you to easily download YouTube videos in different formats and quality settings.
 
@@ -9,20 +9,20 @@ A is a command-line tool that allows you to easily download YouTube videos in di
 
 ## Installation
 
-You can install ViduX globally using npm:
+You can install vid-ux globally using npm:
 ```bash
-npm install -g ViduX
+npm install -g vid-ux
 ```
 ## Usage
 ### Specify Output Directory and Filename
 To download a YouTube video, use the following command:
 ```bash
-ViduX download <video_url> -o <output_directory>/<filename>
+vid-ux download <video_url> -o <output_directory>/<filename>
 ```
 
 ## Examples
 ```bash
-ViduX download https://youtu.be/your_video_url -o videos/my_video -f mp4
+vid-ux download https://youtu.be/your_video_url -o videos/my_video -f mp4
 ```
 
 ## Acknowledgments
