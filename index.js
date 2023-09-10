@@ -8,14 +8,9 @@ program.version("1.0.0").description("A CLI tool to download YouTube videos");
 program
   .command("download <url>")
   .option("-o, --output <path>", "Output directory and filename")
+  .option("-f, --format <format>", "Video format (e.g., mp4, webm)")
   .action((url, options) => {
-    const { output } = options;
-    if (!url) {
-      console.error("Error: You must provide a YouTube video URL.".red);
-      process.exit(1);
-    }
-
-    console.log(output);
+    const { output, format } = options;
 
     if (!output) {
       console.error("Error: You must provide a directory(folder and file name) for storing the video.".red);
@@ -24,13 +19,22 @@ program
 
     console.log("Downloading video...".green);
 
-    exec(url, output)
+    // Split the output path into directory and filename
+    const [folder, filename] = output.split("/");
+
+    // Specify the format with the -f flag
+    const formatOption = format ? ["-f", format] : [];
+
+    // Pass the URL, output directory, and format options separately
+    exec([url, ...formatOption, "-o", `${folder}/${filename}`])
       .then((output) => {
         console.log("Download complete!".green);
-        console.log(output);
+        // console.log(output);
       })
       .catch((error) => {
         console.error(`Error: ${error.message}`.red);
         process.exit(1);
       });
   });
+
+program.parse();
