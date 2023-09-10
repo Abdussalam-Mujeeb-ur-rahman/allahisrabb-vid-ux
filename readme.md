@@ -1,6 +1,6 @@
-# ViduX
+# Meet ViduX
 
-ViduX is a command-line tool that allows you to easily download YouTube videos in different formats and quality settings.
+A is a command-line tool that allows you to easily download YouTube videos in different formats and quality settings.
 
 ## Features
 
