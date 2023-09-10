@@ -1,5 +1,5 @@
 {
-  "name": "yt-converter",
+  "name": "vidux",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "npm run test"
   },
   "bin": {
-    "yt-converter": "./index.js"
+    "ViduX": "./index.js"
   },
   "author": "Abdussalam Mujeeb-ur-rahman",
   "license": "ISC",
