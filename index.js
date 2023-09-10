@@ -41,9 +41,9 @@ program
       process.exit(1);
     }
 
-    if(filename.length < 3) {
+    if(filename.length < 3 || folder.length < 3) {
       console.error(
-        `Error: The file name (${filename}) should contain 3 or more than 3 characters!, The format must include both a folder name and a file name only. Example: folder_name/what_you_wish_to_name_the_video`
+        `Error: The file name and folder should contain 3 or more than 3 characters! each, The format must include both a folder name and a file name only. Example: folder_name/what_you_wish_to_name_the_video`
           .red
       );
       process.exit(1);
