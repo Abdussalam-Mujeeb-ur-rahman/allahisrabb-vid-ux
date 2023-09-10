@@ -1,7 +1,6 @@
 # Meet vid-ux
 
-A is a command-line tool that allows you to easily download YouTube videos in different formats and quality settings.
-
+A command-line tool that allows you to easily download YouTube videos.
 ## Features
 
 - Download YouTube videos with a simple command.
