@@ -1,0 +1,19 @@
+{
+  "name": "yt-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "bin": {
+    "yt-converter": "./index.js"
+  },
+  "author": "Abdussalam Mujeeb-ur-rahman",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "https-proxy-agent": "^7.0.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
