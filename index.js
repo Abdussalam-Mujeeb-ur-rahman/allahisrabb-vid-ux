@@ -49,8 +49,9 @@ program
       process.exit(1);
     }
 
+    console.log(`The speed of the download depends on your internet connection`.yellow);
+    console.log(`The folder: ${folder}, The file name: ${filename}`.blue);
     console.log("Downloading video...".green);
-    console.log(`The folder: ${folder}, The file name: ${filename}` )
 
     // Pass the URL, output directory
     exec([url, "-o", `${folder}/${filename}.mp4`])
