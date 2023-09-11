@@ -77,7 +77,7 @@ async function downloadVideo(url, output) {
     // Pass the URL, output directory
     await exec([url, "-o", `${folder}/${filename}.mp4`]);
     console.log("Download complete!".green);
-    console.log("congratulations".orange);
+    console.log("You can try `allahisrabb-vid-ux <youtube-video-url> -o a_folder_name/a_file_name` again in the future. Thanks!");
   } catch (error) {
     console.error(`Error: ${error.message}`.red);
     process.exit(1);
