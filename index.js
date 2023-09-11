@@ -68,6 +68,9 @@ program
         console.log("To install Python on Windows, download it from:");
         console.log("https://www.python.org/downloads/windows/");
 
+        console.log("You can install Python in Termux using the following command:");
+        console.log("pkg install python");
+
         process.exit(1);
       }
 
