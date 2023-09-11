@@ -35,7 +35,7 @@ program
     // Check if the file already exists
     if (fs.existsSync(`${folder}/${filename}.mp4`)) {
       console.error(
-        `Error: The specified file name (${filename}) already exists. Please provide a different filename for your video. exmple - video/the_file_name`
+        `Error: The specified file name (${filename}) already exists. Please provide a different filename for your video. exmple - ${folder}/the_file_name`
           .red
       );
       process.exit(1);
