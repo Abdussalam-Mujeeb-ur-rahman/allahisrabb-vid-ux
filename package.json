@@ -1,13 +1,14 @@
 {
   "name": "allahisrabb-vid-ux",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A command-line tool that allows you to easily download YouTube videos.",
+  "private": false,
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
   },
   "bin": {
-    "vid-ux": "./index.js"
+    "allahisrabb-vid-ux": "./index.js"
   },
   "author": "Abdussalam Mujeeb-ur-rahman",
   "license": "ISC",

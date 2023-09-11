@@ -1,4 +1,4 @@
-# Meet vid-ux
+# Meet allahisrabb-vid-ux
 
 A command-line tool that allows you to easily download YouTube videos.
 ## Features
@@ -8,20 +8,20 @@ A command-line tool that allows you to easily download YouTube videos.
 
 ## Installation
 
-You can install vid-ux globally using npm:
+You can install allahisrabb-vid-ux globally using npm:
 ```bash
-npm install -g vid-ux
+npm install -g allahisrabb-vid-ux
 ```
 ## Usage
 ### Specify Output Directory and Filename
 To download a YouTube video, use the following command:
 ```bash
-vid-ux download <video_url> -o <output_directory>/<filename>
+allahisrabb-vid-ux download <video_url> -o <output_directory>/<filename>
 ```
 
 ## Examples
 ```bash
-vid-ux download https://youtu.be/your_video_url -o videos/my_video -f mp4
+allahisrabb-vid-ux download https://youtu.be/your_video_url -o videos/my_video -f mp4
 ```
 
 ## Acknowledgments
