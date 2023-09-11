@@ -12,6 +12,9 @@ You can install allahisrabb-vid-ux globally using npm:
 ```bash
 npm install -g allahisrabb-vid-ux
 ```
+### or
+ you can run `npx allahisrabb-vid-ux`. You will be asked if the package can be installed, click ENTER or type YES and click ENTER.
+
 ## Usage
 ### Specify Output Directory and Filename
 To download a YouTube video, use the following command:
@@ -21,7 +24,7 @@ allahisrabb-vid-ux download <video_url> -o <output_directory>/<filename>
 
 ## Examples
 ```bash
-allahisrabb-vid-ux download https://youtu.be/your_video_url -o videos/my_video -f mp4
+allahisrabb-vid-ux download https://youtu.be/your_video_url -o videos/my_video
 ```
 
 ## Acknowledgments
