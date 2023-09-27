@@ -5,7 +5,7 @@ const colors = require("colors");
 const { downloadVideo } = require("./downloadVideo");
 
 
-program.version("1.0.0").description("A CLI tool to download YouTube videos");
+program.version("1.0.0").description("A CLI tool to download YouTube videos. Just make sure you have python downloaded in your device");
 
 
 program

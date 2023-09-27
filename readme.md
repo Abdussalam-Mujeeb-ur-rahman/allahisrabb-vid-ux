@@ -8,6 +8,12 @@ A command-line tool that allows you to easily download YouTube videos.
 
 ## Installation
 
+First of all, make sure Python is installed on your device. To download Python;
+- for Windows, download it [here](https://www.python.org/downloads/windows/)
+- for Linux, you can run `sudo apt-get install python3` in your terminal
+- for termux, you can run `pkg install python`
+- for macOs, Python is typically pre-installed on macOS. You can check by running:`python3 --version`. If it's not installed, you can download it from [here](https://www.python.org/downloads/macos/)
+
 You can install allahisrabb-vid-ux globally using npm:
 ```bash
 npm install -g allahisrabb-vid-ux

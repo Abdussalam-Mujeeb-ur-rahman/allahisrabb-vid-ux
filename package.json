@@ -1,7 +1,7 @@
 {
   "name": "allahisrabb-vid-ux",
-  "version": "1.0.3",
-  "description": "A command-line tool that allows you to easily download YouTube videos.",
+  "version": "1.0.4",
+  "description": "A command-line tool that allows you to download YouTube videos directly into your device.",
   "private": false,
   "main": "index.js",
   "scripts": {
